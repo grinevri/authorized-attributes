@@ -1,6 +1,6 @@
 <?php
 
-namespace Vantage;
+namespace CustomD\AuthorizedAttributes;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Gate;
