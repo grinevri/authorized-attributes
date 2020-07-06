@@ -1,5 +1,5 @@
 {
-    "name": "vantage/authorized-attributes",
+    "name": "custom-d/authorized-attributes",
     "description": "Authorized Model Attributes for Laravel",
     "license": "MIT",
     "keywords": [
@@ -12,18 +12,22 @@
         {
             "name": "Jari Pekkala",
             "email": "jari@vantage.fi"
+        },
+        {
+            "name": "Sam Sehnert",
+            "email": "sam@customd.com"
         }
     ],
     "require": {
-        "illuminate/auth": "6.x",
-        "illuminate/support": "6.x"
+        "illuminate/auth": "^6.0|^7.0",
+        "illuminate/support": "^6.0|^7.0"
     },
     "require-dev": {
-        "orchestra/testbench": "4.x"
+        "orchestra/testbench": "^4.0|^5.0"
     },
     "autoload": {
         "psr-4": {
-            "Vantage\\": "src/"
+            "CustomD\\": "src/"
         }
     }
 }
