@@ -4,6 +4,8 @@ Provides ability to dynamically add `$hidden` and `$fillable` columns to the mod
 
 Also see [Laravel API Resources](https://laravel.com/docs/eloquent-resources#conditional-attributes) if that approach suits your needs.
 
+Forked from [vantageoy/authorized-attributes](https://github.com/vantageoy/authorized-attributes).
+
 <hr>
 
 ### Installation
@@ -11,14 +13,14 @@ Also see [Laravel API Resources](https://laravel.com/docs/eloquent-resources#con
 Require the package to your Laravel project.
 
 ```
-composer require vantage/authorized-attributes
+composer require custom-d/authorized-attributes
 ```
 
 ### Usage
 
 > Please note that this package falls back to the core `Guard` and there are some minor differences of writing the policies between Laravel versions. See the official docs at https://laravel.com/docs/authorization
 
-Use the `Vantage\AuthorizedAttributes` trait
+Use the `CustomD\AuthorizedAttributes\AuthorizedAttributes` trait
 
 ```php
 <?php
@@ -26,7 +28,7 @@ Use the `Vantage\AuthorizedAttributes` trait
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Vantage\AuthorizedAttributes;
+use CustomD\AuthorizedAttributes\AuthorizedAttributes;
 
 class Post extends Model
 {
