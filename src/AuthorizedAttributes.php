@@ -1,6 +1,6 @@
 <?php
 
-namespace Vantage;
+namespace CustomD\AuthorizedAttributes;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Str;
